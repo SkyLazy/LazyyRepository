@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a876a8-ba92-4283-a405-25068ca8cb5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/LockSupport_demo_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/LockSupport_demo_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/ThreadCAS_demo_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/ThreadCAS_demo_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/WaitNotify_demo_2.java" afterDir="false" />
+    <list default="true" id="f9a876a8-ba92-4283-a405-25068ca8cb5a" name="Default Changelist" comment="Thread">
+      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/MainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/ThreadState_Blocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/ThreadState_Join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/ThreadState_Sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/threadDemo/ThreadState_Wait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proxy/META-INF/proxy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proxy/META-INF/proxy.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +77,9 @@
       <recent name="src.threadDemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaitNotify_demo_2">
-    <configuration name="LockSupport_demo_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.threadDemo.LockSupport_demo_2" />
+  <component name="RunManager" selected="Application.ThreadState_Blocked">
+    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.threadDemo.MainThread" />
       <module name="proxy" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupport_demo_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.threadDemo.LockSupport_demo_3" />
+    <configuration name="ThreadState_Blocked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.threadDemo.ThreadState_Blocked" />
       <module name="proxy" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCAS_demo_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.threadDemo.ThreadCAS_demo_2" />
+    <configuration name="ThreadState_Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.threadDemo.ThreadState_Join" />
       <module name="proxy" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCAS_demo_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.threadDemo.ThreadCAS_demo_3" />
+    <configuration name="ThreadState_Sleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.threadDemo.ThreadState_Sleep" />
       <module name="proxy" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadState_Blocked" />
+        <item itemvalue="Application.ThreadState_Join" />
+        <item itemvalue="Application.ThreadState_Sleep" />
+        <item itemvalue="Application.MainThread" />
         <item itemvalue="Application.WaitNotify_demo_2" />
-        <item itemvalue="Application.LockSupport_demo_3" />
-        <item itemvalue="Application.ThreadCAS_demo_3" />
-        <item itemvalue="Application.ThreadCAS_demo_2" />
-        <item itemvalue="Application.LockSupport_demo_2" />
       </list>
     </recent_temporary>
   </component>
@@ -182,34 +180,50 @@
       <workItem from="1575297824161" duration="115000" />
       <workItem from="1575298021357" duration="3028000" />
       <workItem from="1575451594087" duration="6160000" />
-      <workItem from="1577365091673" duration="4214000" />
+      <workItem from="1577365091673" duration="10439000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1577371447829">
+    <state x="301" y="34" key="CommitChangelistDialog2" timestamp="1577515309299">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1577371447829" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1577371447828">
+    <state x="301" y="34" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1577515309299" />
+    <state x="144" y="93" key="DiffContextDialog" timestamp="1577515272450">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1577371447828" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1577371447828">
+    <state x="144" y="93" key="DiffContextDialog/0.23.1440.812@0.23.1440.812" timestamp="1577515272450" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1577515255005">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1577371447828" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1577371447828">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1577515255005" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1577515255003">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1577371447828" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1577515255003" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1577515255001">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1577515255001" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1577515255004">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1577515255004" />
     <state x="370" y="198" width="699" height="462" key="find.popup" timestamp="1577366388983">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="370" y="198" width="699" height="462" key="find.popup/0.23.1440.812@0.23.1440.812" timestamp="1577366388983" />
+    <state x="385" y="194" key="run.anything.popup" timestamp="1577497495565">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="385" y="194" key="run.anything.popup/0.23.1440.812@0.23.1440.812" timestamp="1577497495565" />
   </component>
   <component name="masterDetails">
     <states>

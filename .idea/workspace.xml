@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a876a8-ba92-4283-a405-25068ca8cb5a" name="Default Changelist" comment="" />
+    <list default="true" id="f9a876a8-ba92-4283-a405-25068ca8cb5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proxy/src/threadDemo/ThreadState_Blocked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proxy/src/threadDemo/ThreadState_Blocked.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proxy/src/threadDemo/ThreadState_Sleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proxy/src/threadDemo/ThreadState_Sleep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/threadDemo/ThreadState_Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/threadDemo/ThreadState_Wait.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +75,7 @@
       <recent name="src.threadDemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadState_Blocked">
+  <component name="RunManager" selected="Application.ThreadState_Wait">
     <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.threadDemo.MainThread" />
       <module name="proxy" />
@@ -123,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitNotify_demo_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.threadDemo.WaitNotify_demo_2" />
+    <configuration name="ThreadState_Wait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.threadDemo.ThreadState_Wait" />
       <module name="proxy" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadState_Wait" />
         <item itemvalue="Application.ThreadState_Blocked" />
         <item itemvalue="Application.ThreadState_Join" />
         <item itemvalue="Application.ThreadState_Sleep" />
         <item itemvalue="Application.MainThread" />
-        <item itemvalue="Application.WaitNotify_demo_2" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +179,7 @@
       <workItem from="1575298021357" duration="3028000" />
       <workItem from="1575451594087" duration="6160000" />
       <workItem from="1577365091673" duration="10456000" />
+      <workItem from="1577516673453" duration="1560000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <created>1577515341930</created>
@@ -201,22 +207,22 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="144" y="93" key="DiffContextDialog/0.23.1440.812@0.23.1440.812" timestamp="1577515272450" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1577515345855">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1577602677553">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1577515345855" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1577515345855">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1577602677553" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1577602677552">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1577515345854" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1577515345854">
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1577602677552" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1577602677551">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1577515345854" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1577515345855">
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1577602677551" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1577602677552">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1577515345855" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1577602677552" />
     <state x="370" y="198" width="699" height="462" key="find.popup" timestamp="1577366388983">
       <screen x="0" y="23" width="1440" height="812" />
     </state>

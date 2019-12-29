@@ -8,8 +8,8 @@ public class WaitNotify_demo_2 {
 
     public static void main(String[] args) {
         t1 = new Thread(()->{
-            while(i<10){
-                synchronized (obj){
+         synchronized (obj){
+             while(i<10){
                     System.out.println("t1:"+ ++i);
                     obj.notify();
                     try {
@@ -18,13 +18,14 @@ public class WaitNotify_demo_2 {
                         e.printStackTrace();
                     }
                 }
+                obj.notify();
             }
-            obj.notify();
         });
 
         t2 = new Thread(()->{
-            while(i<10){
-                synchronized (obj){
+
+            synchronized (obj){
+                while(i<10){
                     System.out.println("t2:"+ ++i);
                     obj.notify();
                     try {
@@ -33,8 +34,8 @@ public class WaitNotify_demo_2 {
                         e.printStackTrace();
                     }
                 }
+                obj.notify();
             }
-            obj.notify();
         });
 
         t1.start();;

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a876a8-ba92-4283-a405-25068ca8cb5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/proxy/LambdaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proxy/src/proxy/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proxy/src/proxy/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proxy/src/proxy/Speaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proxy/src/proxy/Speaker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/proxy/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/proxy/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/proxy/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/proxy/LambdaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/proxy/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/proxy/Speaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/proxy/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/proxy/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,7 @@
       <workItem from="1575451594087" duration="6160000" />
       <workItem from="1577365091673" duration="10456000" />
       <workItem from="1577516673453" duration="2803000" />
-      <workItem from="1577691411409" duration="1293000" />
+      <workItem from="1577691411409" duration="1789000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <created>1577515341930</created>
@@ -227,26 +228,26 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="144" y="93" key="DiffContextDialog/0.23.1440.812@0.23.1440.812" timestamp="1577515272450" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1577691385885">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1578033682005">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577691385885" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1577603902081" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1577691385883">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1578033682005" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1578033682005">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577691385883" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1577603902080" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1577691385882">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1578033682004" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1578033682004">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577691385882" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1577603902079" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1577691385884">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1578033682004" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1578033682005">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577691385884" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1577603902080" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1578033682005" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1578032766614">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
@@ -259,66 +260,5 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="385" y="194" key="run.anything.popup/0.23.1440.812@0.23.1440.812" timestamp="1577497495565" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

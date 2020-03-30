@@ -1,4 +1,4 @@
-package src.threadDemo;
+package src.threaddemo;
 
 public class ThreadState_Blocked {
     public static void main(String[] args) throws InterruptedException {

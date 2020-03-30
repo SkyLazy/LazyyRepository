@@ -1,11 +1,14 @@
 package src.proxy;
 
+import jdk.nashorn.internal.objects.annotations.Setter;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 public class ProxyFactory {
     Object target;
+
     public ProxyFactory(Object target){
         this.target = target;
     }

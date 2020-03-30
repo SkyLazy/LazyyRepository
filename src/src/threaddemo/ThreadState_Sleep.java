@@ -1,4 +1,4 @@
-package src.threadDemo;
+package src.threaddemo;
 
 public class ThreadState_Sleep {
     static boolean running = true;

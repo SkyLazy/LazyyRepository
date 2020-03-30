@@ -1,4 +1,4 @@
-package src.threadDemo;
+package src.threaddemo;
 
 public class WaitNotify_demo_2 {
     static int i=0;

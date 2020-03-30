@@ -1,4 +1,4 @@
-package src.threadDemo;
+package src.threaddemo;
 
 public class ThreadCAS_demo_2 {
     static int t=1;

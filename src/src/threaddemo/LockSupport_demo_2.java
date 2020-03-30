@@ -1,12 +1,11 @@
-package src.threadDemo;
+package src.threaddemo;
 
 import java.util.concurrent.locks.LockSupport;
 
-public class LockSupport_demo_3 {
+public class LockSupport_demo_2 {
     static int i = 0;
     static Thread t1;
     static Thread t2;
-    static Thread t3;
 
     public static void main(String[] args) {
         t1 = new Thread(()->{
@@ -21,20 +20,11 @@ public class LockSupport_demo_3 {
             while (i<10){
                 LockSupport.park();
                 System.out.println("t2:"+ ++i);
-                LockSupport.unpark(t3);
-            }
-        });
-
-        t3 = new Thread(()->{
-            while (i<10){
-                LockSupport.park();
-                System.out.println("t3:"+ ++i);
                 LockSupport.unpark(t1);
             }
         });
 
         t1.start();
         t2.start();
-        t3.start();
     }
 }

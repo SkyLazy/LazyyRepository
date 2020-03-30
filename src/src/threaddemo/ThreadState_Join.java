@@ -1,4 +1,4 @@
-package src.threadDemo;
+package src.threaddemo;
 
 /**
  * 线程 join 状态的解释

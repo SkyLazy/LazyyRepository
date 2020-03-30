@@ -7,6 +7,17 @@ public class JDK8LambdaTest {
 
     public static void main(String[] args) {
 
+        //distinct 去重
+        List<Integer> listInt = new ArrayList<>();
+        listInt.add(0);
+        int k = 0;
+        while(k<5){
+            listInt.add(k++);
+        }
+        listInt.stream().forEach(System.out::println);
+        //System.out:println 方法引用
+        listInt.stream().distinct().forEach(System.out::println);
+
         List<Map<String,String>> list = new ArrayList<>();
 
         while(list.size()<3){
@@ -16,9 +27,8 @@ public class JDK8LambdaTest {
             map.put("C"+list.size(),String.valueOf(map.size()));
             list.add(map);
         }
-
-
-
+        list.stream().forEach(System.out::println);
+        //filter会过滤不符合表达式里面的元素
         list.stream().distinct().filter(Mpa->"0".equals(Mpa.get("A0"))).forEach(System.out::println);
 
 

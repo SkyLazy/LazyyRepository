@@ -2,9 +2,11 @@ package src.threaddemo.volatiledemo;
 
 public class Maintest {
     public static volatile int race = 0;
-    public static  void increase() {
+
+    public static void increase() {
         race++;
     }
+
     public static synchronized void increase1() {
         race++;
     }
@@ -15,10 +17,10 @@ public class Maintest {
 
         Thread[] threads = new Thread[THREADS_COUNT];
         for (int i = 0; i < THREADS_COUNT; i++) {
-            threads[i] = new Thread(()->{
-                    for (int j = 0; j < 10000; j++) {
-                        increase();
-            }
+            threads[i] = new Thread(() -> {
+                for (int j = 0; j < 10000; j++) {
+                    increase1();
+                }
             });
             threads[i].start();
         }

@@ -18,7 +18,7 @@ public class Maintest {
             threads[i] = new Thread(()->{
                     for (int j = 0; j < 10000; j++) {
                         increase();
-                }
+            }
             });
             threads[i].start();
         }

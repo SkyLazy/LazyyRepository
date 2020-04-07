@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9a876a8-ba92-4283-a405-25068ca8cb5a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proxy/src/threadDemo/volatiledemo/Maintest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proxy/src/threadDemo/volatiledemo/Maintest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proxy/src/threadDemo/volatiledemo/String.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/threaddemo/volatiledemo/Maintest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/threaddemo/volatiledemo/Maintest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/threaddemo/volatiledemo/String.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +193,7 @@
       <workItem from="1585537029364" duration="3341000" />
       <workItem from="1585793502665" duration="2581000" />
       <workItem from="1586156508913" duration="217000" />
-      <workItem from="1586265961606" duration="203000" />
+      <workItem from="1586265961606" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="Thread">
       <created>1577515341930</created>

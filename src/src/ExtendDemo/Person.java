@@ -1,7 +1,7 @@
 package src.ExtendDemo;
 
 public class Person {
-    private static String type ="human";
+    private static String type ="person";
 
     public static String getType(){
         return type;

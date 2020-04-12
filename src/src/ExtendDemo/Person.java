@@ -1,7 +1,8 @@
 package src.ExtendDemo;
 
 public class Person {
-    private static String type ="teacher";
+    private static String type ="human";
+
     public static String getType(){
         return type;
     }
@@ -10,5 +11,9 @@ public class Person {
 
     public String getName(){
         return this.name;
+    }
+
+    Person(String name){
+        System.out.println("Person init!");
     }
 }

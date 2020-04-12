@@ -1,5 +1,7 @@
 package src;
 
+import java.util.Scanner;
+
 /**
  * 参数传递
  */
@@ -8,7 +10,11 @@ public class ParamterPass {
 
     public static void main(String[] args) {
         ParamterPass ps = new ParamterPass();
-        String str = "old String";
+        String str = "String";
+        String str1 = "String";
+        //固定字符串"String"已存在内存中，不再重新生成，所以str，str1指向同一个地址
+        System.out.println(str1.lastIndexOf(" "));
+        System.out.println(str == str1);
         Integer a = new Integer(5);
         ps.VaildPass(ps,str,a);
         System.out.println(ps.obj);
@@ -22,7 +28,7 @@ public class ParamterPass {
         System.out.println(System.identityHashCode(a));
     }
 
-    public void VaildPass(ParamterPass paramterPass,String str ,Integer a){
+    private void VaildPass(ParamterPass paramterPass,String str ,Integer a){
         paramterPass.obj = "CParamterPass";
         str = "new String";
         a =a + 1;

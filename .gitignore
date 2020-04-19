@@ -1,0 +1,5 @@
+*.class
+.idea/*
+out/*
+proxy.iml
+.gitattributes

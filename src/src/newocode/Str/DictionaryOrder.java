@@ -9,51 +9,49 @@ import java.util.List;
  */
 public class DictionaryOrder {
     public static void main(String[] args) {
-        String[] strs = {"cap", "to", "cat", "card", "two", "too", "up", "boat", "boot"};
-        int maxSize = 0;
-        for (String str : strs) {
-            if (str.length() > maxSize) {
-                maxSize = str.length();
-            }
-        }
-        List orderList = Arrays.asList(dictionaryOrder(strs, 0, maxSize));
+        String[] strs = {"cap", "to", "cat", "card", "two", "too", "up", "boot", "boat"};
+        dictionaryOrder(strs, 0, strs.length, 0);
+        List orderList = Arrays.asList(strs);
         //Collections.sort(orderList);
         orderList.forEach((str) -> System.out.println(str));
 
     }
 
-    public static String[] dictionaryOrder(String[] str, int index, int maxSize) {
-        if (str.length == 0 && index == maxSize) {
-            return str;
+    public static void dictionaryOrder(String[] strs, int begin, int end, int index) {
+        if (end - begin == 1) return;
+        int max = 0;
+        for (int i = begin; i < end; i++) {
+            max = strs[i].length() > max ? strs[i].length() : max;
         }
-        //在前面的字符都相同的情況下，按照index位置進行排序
-        for (int i = 0; i < str.length; i++) {
-            for (int j = i; j < str.length; j++) {
-                char chi = str[i].length() > index ? str[i].toUpperCase().charAt(index) : 0;
-                char chj = str[j].length() > index ? str[j].toUpperCase().charAt(index) : 0;
+        if (index > max) return;
+        for (int i = begin; i < end; i++) {
+            for (int j = i + 1; j < end; j++) {
+                char chi = strs[i].length() > index ? strs[i].charAt(index) : 0;
+                char chj = strs[j].length() > index ? strs[j].charAt(index) : 0;
                 if (chi > chj) {
-                    String tmp = str[i];
-                    str[i] = str[j];
-                    str[j] = tmp;
+                    swap(strs, i, j);
                 }
             }
         }
-        //根据已经排好序的字符进行分組
-        int k = 0;
-        for (int i = 1; i < str.length; i++) {
 
-            int lengthi = str[i-1].length() <=index ? str[i-1].length() : index;
-            int lengthin = str[i].length() <=index ? str[i].length() :index;
-
-
-            if (str[i].substring(0, lengthin) != str[i - 1].substring(0, lengthi)) {
-                String[] copy = new String[i - k];
-                for (int j = k; j < i; j++) {
-                    copy[j] = str[j];
-                }
-                dictionaryOrder(copy, index + 1, maxSize);
+        for (int i = begin + 1; i < end; i++) {
+            int fornt = strs[i - 1].length() < index + 1 ? strs[i - 1].length() : index + 1;
+            int last = strs[i].length() < index + 1 ? strs[i].length() : index + 1;
+            //boat boot 他们bo字段处会相等，会导致不进行下去
+            if (!strs[i - 1].substring(0, fornt).equals(strs[i].substring(0, last))) {
+                dictionaryOrder(strs, begin, i, index + 1);
+                begin = i;
+            }
+            if (i == end - 1){
+                dictionaryOrder(strs, begin, end, index + 1);
             }
         }
-        return str;
     }
+
+    public static void swap(String[] strs, int i, int j) {
+        String string = strs[i];
+        strs[i] = strs[j];
+        strs[j] = string;
+    }
+
 }

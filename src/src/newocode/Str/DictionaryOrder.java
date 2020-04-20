@@ -22,14 +22,18 @@ public class DictionaryOrder {
      **/
     public static void dictionaryOrder(String[] strs, int begin, int end, int index) {
         //若分组只有一条数据,则直接返回
-        if (end - begin == 1) return;
+        if (end - begin == 1) {
+            return;
+        }
 
         int max = 0;
         for (int i = begin; i < end; i++) {
             max = strs[i].length() > max ? strs[i].length() : max;
         }
         //若分组中的每条数据的长度都小于当前比较位置,则直接返回
-        if (index > max) return;
+        if (index > max) {
+            return;
+        }
 
         //对分组中的每条数据，按照当前比较位置进行比较
         for (int i = begin; i < end; i++) {

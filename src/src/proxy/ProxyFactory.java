@@ -1,6 +1,5 @@
 package src.proxy;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  * @author xixi
- * @descrition 输出字符串中出现次数最多的字符,与出现的次数,字符串**** boolean,boolean可有可无,表示是否大小写敏感
+ * @descrition 输出字符串中出现次数最多的字符, 与出现的次数, 字符串**** boolean,boolean可有可无,表示是否大小写敏感
  */
 public class CharactorTimes {
     public static void main(String[] args) {
@@ -34,7 +34,12 @@ public class CharactorTimes {
         char ch = 'a';
         for (Map.Entry<Character, Integer> entry : result.entrySet()) {
             if (entry.getValue() > max) {
+                //出现次数大者
                 max = entry.getValue();
+                ch = entry.getKey();
+            }
+            else if (entry.getValue() == max && entry.getKey() < ch) {
+                //出现次数相同但是字符小
                 ch = entry.getKey();
             }
         }

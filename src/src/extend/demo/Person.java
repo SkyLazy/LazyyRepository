@@ -1,4 +1,4 @@
-package src.ExtendDemo;
+package src.extend.demo;
 
 public class Person {
     private static String type ="human";

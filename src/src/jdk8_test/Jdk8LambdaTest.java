@@ -30,7 +30,5 @@ public class Jdk8LambdaTest {
         list.forEach(System.out::println);
         //filter会过滤不符合表达式里面的元素
         list.stream().distinct().filter(map->"0".equals(map.get("A0"))).forEach(System.out::println);
-
-
     }
 }

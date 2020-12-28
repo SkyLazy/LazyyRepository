@@ -2,7 +2,7 @@ package src.jdk8_test;
 
 import java.util.*;
 
-public class JDK8LambdaTest {
+public class Jdk8LambdaTest {
 
 
     public static void main(String[] args) {
